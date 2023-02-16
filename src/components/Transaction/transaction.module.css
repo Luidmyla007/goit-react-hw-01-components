@@ -1,0 +1,33 @@
+.transactionTable{
+    margin-top: 32px; 
+    padding: 48px 35px;    
+    background-color: darkseagreen;
+    border-radius: 15px;
+    border: 2px solid palegreen;   
+    font-size: 24px;
+    border-spacing: 10px 5px;
+    text-align: center;
+};
+
+.transactionTable tr{
+    background-color: palegreen;
+        text-align: center;
+        font-size: 36px;
+        text-transform: uppercase;
+        border-radius: 12px;
+}
+
+.transactionTable th{
+    text-transform: uppercase;
+}
+
+
+.transactionBody{  
+        padding: 5px;
+        justify-content: space-between;
+        border-radius: 24px;        
+        font-size: 24px;  
+        text-align: center;    
+        background-color: palegreen;
+
+}
