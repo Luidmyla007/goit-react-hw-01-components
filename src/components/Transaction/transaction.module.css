@@ -1,5 +1,7 @@
 .transactionTable{
     margin-top: 32px; 
+    margin-left: auto;   
+    margin-right: auto;
     padding: 48px 35px;    
     background-color: darkseagreen;
     border-radius: 15px;
@@ -21,6 +23,7 @@
     background-color: rgb(15, 96, 15);
     border-radius: 10px;
     box-shadow: 10px 12px 12px 0px #4c6851a4;
+  
 }
 
 
@@ -38,4 +41,5 @@
 .transactionTd{
     border-radius: 10px;
     box-shadow: 10px 12px 12px 0px greenyellow;
+  
 }

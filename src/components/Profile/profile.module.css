@@ -1,0 +1,102 @@
+
+.profileBox{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30vw;
+    padding: 48px 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    background-color: hsla(133, 25%, 36%, 0.3);
+    border-radius: 25px;
+    border: 2px solid rgb(195, 225, 218);
+    box-shadow: 10px 12px 12px 0px #cab1b14d;
+}
+
+.profileDescription{
+    padding: 25px;
+    background-color: bisque;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;;
+}
+
+.profileImage{
+    background-color: beige;
+    border-radius: 50%;
+}
+
+.userName{
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.userTag{
+    color: darkslategrey;
+}
+
+.userLocation{
+    color: darkslategrey;
+    font-weight: 600;
+}
+
+.userList{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(243, 240, 240);
+    display: flex;
+    /* padding: 15px; */
+    width: 397px;
+    border: 1px solid rgb(146, 179, 179);
+
+}
+
+.userList li{
+    display: flex;
+        width: calc(100% / 3);
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        /* :not(:last-child) {
+                border-right: 1px solid darklategray;
+            } */
+         
+} 
+
+.userList li:not(:last-child){
+   border-right: 1px solid rgb(146, 179, 179);
+}
+
+/* .userListItem{
+    display: flex;
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid darkolivegreen; */
+/* } */ 
+
+/* .userList:first-child{
+    border-right: 1px solid darkslategray;;
+}
+
+.userList:last-child{
+    border-left: 1px solid darkslategray;
+} */
+
+.userPublicity{
+    color: darkslategrey;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.userPublicityCalc{
+    color: darkslategrey;
+        font-weight: 600;
+        font-size: 35px;
+}
