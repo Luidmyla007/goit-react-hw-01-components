@@ -6,6 +6,7 @@ import { Friendlist } from './Friendlist/friendlist';
 import friends from './Friendlist/friends';
 import transactions from './Transaction/transactions';
 import { TransactionHistory } from './Transaction/transaction';
+import { GlobalStyle } from './GlobalStyle';
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
+      <GlobalStyle/>
    <Profile
         username={user.username}
         tag={user.tag}
