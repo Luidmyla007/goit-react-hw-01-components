@@ -7,7 +7,7 @@
     font-size: 24px;
     border-spacing: 10px 5px;
     text-align: center;
-    box-shadow: 10px 12px 12px 0px #8883834d;
+    box-shadow: 10px 12px 12px 0px #02220ca2;
  
 };
 
@@ -18,20 +18,24 @@
 
 .transactionTable th{
     text-transform: uppercase;
-    background-color: palegreen;
+    background-color: rgb(15, 96, 15);
     border-radius: 10px;
     box-shadow: 10px 12px 12px 0px #4c6851a4;
 }
 
 
 .transactionBody{  
-        padding: 5px;
-        justify-content: space-between;
-        border-radius: 10px;        
         font-size: 24px;  
         text-align: center;    
         background-color: palegreen;
-        box-shadow: 10px 12px 12px 0px greenyellow;
        
+}
 
+.transactionBody:nth-child(odd) {
+    background-color: rgb(203, 232, 199);
+}
+
+.transactionTd{
+    border-radius: 10px;
+    box-shadow: 10px 12px 12px 0px greenyellow;
 }
