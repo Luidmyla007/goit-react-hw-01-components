@@ -1,0 +1,50 @@
+.statisticBox{
+    margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        /* max-width: 30vw;        */
+        max-width: 512px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        background-color: hsla(133, 25%, 36%, 0.3);
+        border-radius: 25px;
+        border: 2px solid rgb(195, 225, 218);
+        box-shadow: 10px 12px 12px 0px #cab1b14d;
+}
+
+.statisticBox ul{
+    margin-top: 20px;
+    display: flex;
+   /* padding-left: 15px;
+   padding-right: 15px; */
+    justify-content: space-evenly;
+}
+
+.statisticBox ul li{
+ 
+    display: flex;
+        width: calc(100% / 5);
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+            padding-right: 15px;
+            
+}
+
+.statisticBox ul li:first-child {
+border-bottom-left-radius: 25px;
+}
+
+.statisticBox ul li:last-child {
+    border-bottom-right-radius: 25px;
+}
+
+.statisticBox ul li span:first-child{
+    font-size: 30px;
+}
