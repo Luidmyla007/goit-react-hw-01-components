@@ -7,29 +7,20 @@ import friends from './Friendlist/friends';
 import transactions from './Transaction/transactions';
 import { TransactionHistory } from './Transaction/transaction';
 import { GlobalStyle } from './GlobalStyle';
+import css from './App.module.css';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
+    <div className={css.container}>
       <GlobalStyle/>
-   <Profile
+      <Profile
         username={user.username}
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
         stats={user.stats}
       />
-
-    <Statistics title="Upload stats" stats={data}/>
+      <Statistics title="Upload stats" stats={data}/>
       <Friendlist friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
