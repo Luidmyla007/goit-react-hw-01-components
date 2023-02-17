@@ -3,6 +3,7 @@ import { FriendItem } from './friendItem';
 
 
 
+
 export const Friendlist = ({ friends }) => {
   return(
     <ul>

@@ -1,5 +1,5 @@
 .transactionTable{
-    margin-top: 32px; 
+    margin-top: 70px; 
     margin-left: auto;   
     margin-right: auto;
     padding: 48px 35px;    
@@ -41,5 +41,4 @@
 .transactionTd{
     border-radius: 10px;
     box-shadow: 10px 12px 12px 0px greenyellow;
-  
 }
